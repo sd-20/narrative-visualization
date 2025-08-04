@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titanic: A Story of Survival</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Titanic: A Story of Survival</h1>
+            <p class="subtitle">An interactive exploration of passenger survival patterns</p>
+        </header>
+
+        <div class="navigation">
+            <button id="prev-btn" class="nav-btn" disabled>← Previous</button>
+            <div class="scene-indicator">
+                <span class="scene-dot active" data-scene="0"></span>
+                <span class="scene-dot" data-scene="1"></span>
+                <span class="scene-dot" data-scene="2"></span>
+            </div>
+            <button id="next-btn" class="nav-btn">Next →</button>
+        </div>
+
+        <div class="scene-container">
+            <div id="scene-title"></div>
+            <div id="scene-description"></div>
+            <div id="visualization"></div>
+            <div id="annotations"></div>
+        </div>
+
+        <div class="controls">
+            <div id="scene-controls"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

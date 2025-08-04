@@ -19,7 +19,7 @@ const genderColors = { 'male': '#3498db', 'female': '#e91e63' };
 const scenes = [
     {
         title: "The Tragedy Unfolds",
-        description: "On April 15, 1912, the RMS Titanic sank in the North Atlantic. Of the 1310 passengers aboard, only 710 survived. Let's explore the survival patterns of the passengers.",
+        description: "On April 15, 1912, the RMS Titanic sank in the North Atlantic. Of the 1310 passengers aboard, only 500 survived. Let's explore the survival patterns of the passengers.",
         type: "overview"
     },
     {
